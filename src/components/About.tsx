@@ -26,15 +26,15 @@ export function About() {
 
           <div className="space-y-6 text-gray-300 text-lg leading-relaxed max-w-xl">
             <p>
-              Glamour is a European institution that partners with Africans to showcase your lifestyle, 
-              creativity, daily habits and get paid for it.
+              Glamour is a premium lifestyle destination that partners with creators to showcase your creativity, 
+              daily habits and unlock global reward potential.
             </p>
             <p>
-              It's where your everyday lifestyle becomes your Income...From your outfits. 
-              To your daily routines...To your cuisine and interests.
+              It's where your everyday lifestyle becomes your Milestone Portfolio... from your outfits 
+              to your daily routines, cuisine and creative interests.
             </p>
             <p>
-              Glamour turns your life into content that pays you in Euros and Pounds.
+              Glamour transforms your unique life into premium content that connects you with international value.
             </p>
           </div>
 
@@ -44,10 +44,10 @@ export function About() {
             </p>
             <ul className="space-y-3">
                {[
-                 'Earn from their lifestyle',
+                 'Unlock lifestyle rewards',
                  'Showcase African culture to the world',
                  'Build influence online',
-                 'Monetize creativity effortlessly'
+                 'Experience premium global value'
                ].map((item, idx) => (
                  <li key={idx} className="flex items-center space-x-3 text-gray-400">
                    <div className="w-1.5 h-1.5 rounded-full bg-white/40" />

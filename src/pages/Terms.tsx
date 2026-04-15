@@ -56,14 +56,17 @@ export function Terms() {
           <section>
             <h2 className="text-2xl font-bold text-white mb-6 flex items-center gap-3">
               <span className="w-8 h-8 rounded-lg bg-white/5 flex items-center justify-center text-sm font-black">04</span>
-              Rewards & Earning Structure
+              Rewards & Milestone Structure
             </h2>
+            <p className="leading-relaxed text-lg mb-4 font-bold text-white border-l-4 border-brand-gold pl-6 py-2 bg-brand-gold/5">
+              ADVISORY: Glamour is a lifestyle and creative platform. While participation can unlock rewards and value milestones, we do not guarantee any specific financial income. Rewards are based solely on individual engagement and platform activity.
+            </p>
             <p className="leading-relaxed text-lg mb-4">
-              Earnings on Glamour are based on activity, engagement, and cross-continental collaboration. The earning structure is subject to change at our discretion, though current rates are always visible in the platform dashboard.
+              Rewards on Glamour are based on activity, engagement, and cross-continental collaboration. The reward structure is subject to change at our discretion, though current milestones are always visible in the platform dashboard.
             </p>
             <ul className="list-disc pl-8 space-y-3 text-lg">
-              <li>Gains are calculated based on platform participation (e.g., teaching languages, sharing daily scripts).</li>
-              <li>Withdrawal of earnings is subject to verification and platform-specific minimum thresholds.</li>
+              <li>Milestones are calculated based on platform participation (e.g., sharing daily scripts).</li>
+              <li>Withdrawal of rewards is subject to verification and platform-specific minimum thresholds.</li>
               <li>Attempts to manipulate engagement or create duplicate accounts will result in immediate termination of rewards and account suspension.</li>
             </ul>
           </section>
@@ -88,7 +91,7 @@ export function Terms() {
               Limitation of Liability
             </h2>
             <p className="leading-relaxed text-lg">
-              Glamour shall not be liable for any indirect, incidental, special, or consequential damages resulting from your use of the platform. We do not guarantee specific income levels as earnings are entirely dependent on individual activity and market demand.
+              Glamour shall not be liable for any indirect, incidental, special, or consequential damages resulting from your use of the platform. We do not guarantee specific reward levels as participation outcomes are entirely dependent on individual activity and market demand.
             </p>
           </section>
         </div>

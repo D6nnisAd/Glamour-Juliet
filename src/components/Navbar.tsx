@@ -49,7 +49,7 @@ export function Navbar() {
         {/* Right: Signup Button & Hamburger */}
         <div className="flex items-center space-x-4">
           <button className="bg-white text-brand-dark px-8 py-[10px] rounded-full font-semibold shadow-[0_0_30px_rgba(255,255,255,0.6)] hover:shadow-[0_0_35px_rgba(255,255,255,0.9)] transition-shadow">
-            Signup
+            Get Started
           </button>
 
           <button 
@@ -86,7 +86,7 @@ export function Navbar() {
           
           <div className="mt-auto mb-12">
             <button className="w-full bg-white text-brand-dark py-4 rounded-full font-bold shadow-[0_0_25px_rgba(255,255,255,0.4)] text-lg">
-              Signup Now
+              Get Started Now
             </button>
           </div>
         </div>

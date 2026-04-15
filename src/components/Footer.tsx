@@ -1,4 +1,4 @@
-import { Mail, MapPin, Phone } from 'lucide-react';
+import { Mail, MapPin } from 'lucide-react';
 import { Link } from 'react-router-dom';
 
 export function Footer() {
@@ -36,12 +36,8 @@ export function Footer() {
               <div className="flex items-start gap-4">
                 <MapPin className="text-brand-gold mt-1 shrink-0" size={20} />
                 <span className="text-gray-400 leading-relaxed">
-                  Headquarters: Lagos, Nigera
+                  Headquarters: Lagos, Nigeria
                 </span>
-              </div>
-              <div className="flex items-center gap-4">
-                <Phone className="text-brand-gold shrink-0" size={20} />
-                <span className="text-gray-400">+234 (0) 800 GLAMOUR</span>
               </div>
               <div className="flex items-center gap-4">
                 <Mail className="text-brand-gold shrink-0" size={20} />
@@ -67,6 +63,13 @@ export function Footer() {
               </button>
             </div>
           </div>
+        </div>
+
+        {/* Platform Disclaimer Area */}
+        <div className="mb-12 p-6 rounded-2xl bg-white/[0.02] border border-white/5">
+          <p className="text-gray-500 text-sm leading-relaxed text-center italic">
+            Glamour is an elite lifestyle and creative exchange platform. While participation can unlock premium global rewards and value milestones, we do not guarantee any specific financial income. Rewards are based solely on individual engagement, platform activity, and market demand.
+          </p>
         </div>
 
         {/* Bottom Bar */}

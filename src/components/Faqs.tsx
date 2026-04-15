@@ -19,8 +19,8 @@ const faqData = [
     answer: "Premium activation unlocks full access to all Glamour categories, including mentor connections, remote job listings, and the ability to participate in high-value cultural exchange activities that offer rewards for your engagement."
   },
   {
-    question: "How do the 'Rewards' and 'Gains' work?",
-    answer: "As you interact with the platform—sharing scripts, teaching local languages, or partnering on tasks across time zones—you earn rewards based on your activity levels and the engagement your content generates from our international community."
+    question: "How do the 'Rewards' and 'Milestones' work?",
+    answer: "As you interact with the platform—sharing scripts, teaching local languages, or partnering on tasks across time zones—you unlock rewards based on your activity levels and the engagement your content generates from our international community."
   }
 ];
 

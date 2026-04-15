@@ -11,18 +11,18 @@ import {
   Briefcase 
 } from 'lucide-react';
 
-const earnings = [
-  { label: "Glam Link Bonus", amount: "₦12,000 (€6)", icon: HighVoltage, type: "primary" },
-  { label: "1st Indirect Commission", amount: "Bonus ₦400", icon: Users, type: "secondary" },
-  { label: "2nd Indirect Commission", amount: "Bonus ₦100", icon: Users, type: "secondary" },
-  { label: "Glam Reward", amount: "₦10,000 (€5)", icon: Award, type: "primary" },
-  { label: "GlamLifestyle", amount: "€2 / hour", icon: Globe, type: "hourly" },
-  { label: "GlamRealtime", amount: "€2 / hour", icon: Clock, type: "hourly" },
-  { label: "GlamFaceTime", amount: "€2 / hour", icon: MessageSquare, type: "hourly" },
-  { label: "GlamDarkMode", amount: "€2 / hour", icon: Zap, type: "hourly" },
-  { label: "GlamScript2Cash", amount: "€2 / script", icon: Code, type: "hourly" },
-  { label: "GlamLingua", amount: "€2 / hour", icon: Languages, type: "hourly" },
-  { label: "GlamWorks", amount: "€2 / hour", icon: Briefcase, type: "hourly" },
+const milestones = [
+  { label: "Community Access", amount: "Reward Hub", icon: HighVoltage, type: "primary" },
+  { label: "Level 1 Incentive", amount: "Tier 1", icon: Users, type: "secondary" },
+  { label: "Level 2 Incentive", amount: "Tier 2", icon: Users, type: "secondary" },
+  { label: "Elite Milestone", amount: "Platinum", icon: Award, type: "primary" },
+  { label: "GlamLifestyle", amount: "High Potential", icon: Globe, type: "hourly" },
+  { label: "GlamRealtime", amount: "High Potential", icon: Clock, type: "hourly" },
+  { label: "GlamFaceTime", amount: "High Potential", icon: MessageSquare, type: "hourly" },
+  { label: "GlamDarkMode", amount: "High Potential", icon: Zap, type: "hourly" },
+  { label: "GlamScript2Value", amount: "High Potential", icon: Code, type: "hourly" },
+  { label: "GlamLingua", amount: "High Potential", icon: Languages, type: "hourly" },
+  { label: "GlamWorks", amount: "High Potential", icon: Briefcase, type: "hourly" },
 ];
 
 export function Packages() {
@@ -35,15 +35,15 @@ export function Packages() {
       <div className="relative z-10 max-w-7xl mx-auto">
         <div className="flex flex-col lg:flex-row items-center justify-between gap-16 mb-20">
           <div className="max-w-2xl">
-            <h2 className="text-sm font-bold tracking-widest text-emerald-400 uppercase mb-4">Investment & Rewards</h2>
+            <h2 className="text-sm font-bold tracking-widest text-emerald-400 uppercase mb-4">Access & Rewards</h2>
             <h3 className="text-4xl md:text-6xl font-extrabold text-white mb-8 leading-tight">
-              Glam Earning <br />
+              Glam Reward <br />
               <span className="text-transparent bg-clip-text bg-gradient-to-r from-emerald-400 to-brand-gold">Structure</span>
             </h3>
             
             {/* Glam Fee Card */}
             <div className="inline-flex flex-col p-8 rounded-3xl bg-white/[0.03] border border-emerald-500/20 backdrop-blur-md mb-8">
-              <span className="text-emerald-400 font-medium mb-1">Entry Investment</span>
+              <span className="text-emerald-400 font-medium mb-1">Platform Activation</span>
               <div className="flex items-baseline gap-2">
                 <span className="text-4xl md:text-5xl font-black text-white">₦14,000</span>
                 <span className="text-xl text-emerald-300 font-semibold">(€7)</span>
@@ -64,20 +64,20 @@ export function Packages() {
 
           {/* Featured Summary Box */}
           <div className="w-full lg:w-96 p-8 rounded-[2rem] bg-gradient-to-br from-emerald-500 to-teal-600 shadow-[0_30px_60px_rgba(4,120,87,0.3)] transform lg:rotate-2 hover:rotate-0 transition-transform duration-500">
-            <h4 className="text-white/80 font-bold text-lg uppercase tracking-wider mb-2">Potential Hourly Income</h4>
-            <div className="text-5xl font-black text-white mb-6">€12 / <span className="text-2xl opacity-80">hr</span></div>
+            <h4 className="text-white/80 font-bold text-lg uppercase tracking-wider mb-2">Total Reward Potential</h4>
+            <div className="text-5xl font-black text-white mb-6">Tier 1 <span className="text-2xl opacity-80">Elite</span></div>
             <div className="space-y-4">
               <div className="flex items-center gap-3 text-white/90 font-medium">
                 <div className="w-6 h-6 rounded-full bg-white/20 flex items-center justify-center text-xs">✓</div>
-                Direct Referral Bonuses
+                Tier-1 Incentives
               </div>
               <div className="flex items-center gap-3 text-white/90 font-medium">
                 <div className="w-6 h-6 rounded-full bg-white/20 flex items-center justify-center text-xs">✓</div>
-                Passive Associate Shares
+                Associate Value
               </div>
               <div className="flex items-center gap-3 text-white/90 font-medium">
                 <div className="w-6 h-6 rounded-full bg-white/20 flex items-center justify-center text-xs">✓</div>
-                Activity-Based Rewards
+                Milestone Rewards
               </div>
             </div>
           </div>
@@ -85,10 +85,10 @@ export function Packages() {
 
         {/* Dynamic Grid */}
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-4 md:gap-6">
-          {earnings.map((item, idx) => (
+          {milestones.map((item, idx) => (
             <div 
               key={idx} 
-              className="group relative p-6 rounded-2xl bg-white/[0.02] border border-white/5 hover:bg-white/[0.05] hover:border-emerald-500/30 transition-all duration-300 overflow-hidden"
+              className="group relative p-6 rounded-2xl bg-white/[0.02] border border-white/5 hover:bg-white/[0.04] hover:border-emerald-500/30 transition-all duration-300 overflow-hidden"
             >
               <div className="absolute -right-4 -bottom-4 w-24 h-24 bg-emerald-500/5 rounded-full blur-2xl group-hover:bg-emerald-500/10 transition-colors" />
               

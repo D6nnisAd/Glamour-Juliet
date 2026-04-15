@@ -23,7 +23,7 @@ export function CTA() {
                 <span className="text-transparent bg-clip-text bg-gradient-to-r from-emerald-400 to-brand-gold">Global Potential?</span>
               </h2>
               <p className="text-gray-400 text-base md:text-lg leading-relaxed max-w-2xl mx-auto lg:mx-0 font-medium">
-                Elevate your personal brand, connect with international peers across continents, and start monetizing your unique lifestyle today.
+                Elevate your personal brand, connect with international peers across continents, and unlock the true value of your unique lifestyle today.
               </p>
             </div>
             

@@ -51,8 +51,8 @@ export function Features() {
       color: "from-green-400 to-emerald-500"
     },
     { 
-      title: "GLAM SCRIPT2CASH", 
-      desc: "Take daily scripts, turn them into videos or short reels, post on social media and share the link to grow your profile's influence instantly.", 
+      title: "GLAM SCRIPT2VALUE", 
+      desc: "Take daily scripts, turn them into videos or short reels, post on social media and grow your profile's influence instantly.", 
       icon: Clapperboard,
       color: "from-yellow-400 to-amber-500"
     },
@@ -96,7 +96,7 @@ export function Features() {
              Experience the <span className="text-transparent bg-clip-text bg-gradient-to-r from-white to-gray-400">Glamour Layout</span>
           </h3>
           <p className="text-gray-400 text-lg leading-relaxed">
-            Elevate your personal brand, connect across continents, and start monetizing your lifestyle today.
+            Elevate your personal brand, connect across continents, and unlock your lifestyle value today.
           </p>
         </div>
 
