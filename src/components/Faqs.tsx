@@ -16,7 +16,7 @@ const faqData = [
   },
   {
     question: "What are the benefits of the premium activation?",
-    answer: "Premium activation unlocks full access to all Glamour categories, including mentor connections, remote job listings, and the ability to participate in high-value cultural exchange activities that offer rewards for your engagement."
+    answer: "Premium activation unlocks full access to all Glamour categories, including mentor connections, global milestone challenges, and the ability to participate in high-value cultural exchange activities that offer rewards for your engagement."
   },
   {
     question: "How do the 'Rewards' and 'Milestones' work?",
