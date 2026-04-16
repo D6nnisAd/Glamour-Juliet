@@ -1,22 +1,5 @@
 ---
 deployment:
   tasks:
-    # Ensure Node.js is in the PATH. CPanel uses 'ea-nodejs'. 
-    # Change 'v20' to the Node.js version available on your cPanel host (e.g. 18, 20).
-    - export PATH=/opt/cpanel/ea-nodejs20/bin:$PATH
-    
-    # Alternatively if the above path doesn't work, some hosts use NVM:
-    # - export NVM_DIR="$HOME/.nvm"
-    # - [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"
-    # - nvm use 20
-
-    # Install dependencies
-    - npm install
-    
-    # Build the Vite project for production
-    - npm run build
-    
-    # Copy all files from the 'dist' directory to 'public_html'
-    # Important: Replace 'YOUR_USERNAME' with your actual cPanel username.
-    # If this app is deployed into a subdirectory or addon domain, update the path accordingly.
+    # Copy all files from the pre-built 'dist' directory to 'public_html'
     - /bin/cp -R dist/* /home/glamourw/public_html/
