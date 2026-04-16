@@ -1,5 +1,5 @@
 import { useEffect } from 'react';
-import { ShieldCheck, Eye, Lock, Database } from 'lucide-react';
+import { ShieldCheck, Lock } from 'lucide-react';
 
 export function Privacy() {
   useEffect(() => {

@@ -1,5 +1,5 @@
 import { useEffect } from 'react';
-import { ShieldCheck, FileText, Scale } from 'lucide-react';
+import { Scale } from 'lucide-react';
 
 export function Terms() {
   useEffect(() => {
