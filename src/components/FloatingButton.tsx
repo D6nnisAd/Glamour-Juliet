@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react';
 
-export const TELEGRAM_URL = "https://t.me/Glamourofficials3?text=" + encodeURIComponent("Hello Glamour Admin, I am ready to begin and acquire access to start my journey on Glamour.");
+export const TELEGRAM_URL = "https://t.me/+2348126865989?text=" + encodeURIComponent("Hello Glamour Admin, I am ready to begin and acquire access to start my journey on Glamour.");
 
 export function FloatingButton() {
   const [isVisible, setIsVisible] = useState(false);
