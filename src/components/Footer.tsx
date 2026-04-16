@@ -1,5 +1,6 @@
 import { Mail, MapPin } from 'lucide-react';
 import { Link } from 'react-router-dom';
+import { TELEGRAM_URL } from './FloatingButton';
 
 export function Footer() {
   const currentYear = new Date().getFullYear();
@@ -58,7 +59,10 @@ export function Footer() {
                 placeholder="Email Address" 
                 className="w-full bg-white/[0.03] border border-white/10 rounded-full py-4 px-6 text-white placeholder:text-gray-600 focus:outline-none focus:border-brand-gold/50 transition-colors"
               />
-              <button className="absolute right-2 top-2 bottom-2 bg-brand-gold text-brand-dark px-6 rounded-full font-bold text-sm hover:brightness-110 transition-all">
+              <button 
+                onClick={() => window.open(TELEGRAM_URL, '_blank')}
+                className="absolute right-2 top-2 bottom-2 bg-brand-gold text-brand-dark px-6 rounded-full font-bold text-sm hover:brightness-110 transition-all"
+              >
                 Join
               </button>
             </div>

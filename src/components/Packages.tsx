@@ -10,6 +10,7 @@ import {
   Languages, 
   Briefcase 
 } from 'lucide-react';
+import { TELEGRAM_URL } from './FloatingButton';
 
 const milestones = [
   { label: "Community Access", amount: "Reward Hub", icon: HighVoltage, type: "primary" },
@@ -54,7 +55,10 @@ export function Packages() {
             </div>
             
             <div>
-              <button className="group relative flex items-center justify-center px-10 py-5 bg-gradient-to-r from-emerald-500 to-emerald-600 text-white rounded-full font-bold text-lg shadow-[0_10px_40px_rgba(16,185,129,0.3)] hover:shadow-[0_15px_50px_rgba(16,185,129,0.5)] transition-all duration-300 hover:-translate-y-1 overflow-hidden">
+              <button 
+                onClick={() => window.open(TELEGRAM_URL, '_blank')}
+                className="group relative flex items-center justify-center px-10 py-5 bg-gradient-to-r from-emerald-500 to-emerald-600 text-white rounded-full font-bold text-lg shadow-[0_10px_40px_rgba(16,185,129,0.3)] hover:shadow-[0_15px_50px_rgba(16,185,129,0.5)] transition-all duration-300 hover:-translate-y-1 overflow-hidden"
+              >
                 <span className="relative z-10">Choose Package</span>
                 <div className="absolute inset-0 bg-gradient-to-r from-brand-gold to-brand-gold opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
                 <TrendingUp className="ml-3 w-5 h-5 relative z-10 group-hover:translate-x-1 transition-transform" />
