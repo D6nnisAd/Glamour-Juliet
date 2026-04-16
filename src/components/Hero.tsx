@@ -1,3 +1,5 @@
+import { TELEGRAM_URL } from './FloatingButton';
+
 export function Hero() {
   return (
     <div id="home" className="min-h-screen relative w-full bg-[url('/assets/mobile-background.jpg')] md:bg-[url('/assets/desktop-background.jpg')] bg-cover bg-center bg-no-repeat">
@@ -19,12 +21,18 @@ export function Hero() {
 
         {/* Right Buttons (Stacked horizontally on both Desktop and Mobile) */}
         <div className="flex flex-row justify-center items-center space-x-4 md:space-x-6 mt-8 md:mt-0 px-6 w-full md:w-auto md:px-0 md:absolute md:right-12 lg:right-20 md:bottom-[20%] z-10">
-          <button className="bg-white text-brand-dark px-6 md:px-10 py-3 rounded-full font-semibold shadow-[0_0_35px_rgba(255,255,255,0.6)] hover:shadow-[0_0_40px_rgba(255,255,255,0.8)] transition-all transform hover:scale-105">
+          <button 
+            onClick={() => window.open(TELEGRAM_URL, '_blank')}
+            className="bg-white text-brand-dark px-6 md:px-10 py-3 rounded-full font-semibold shadow-[0_0_35px_rgba(255,255,255,0.6)] hover:shadow-[0_0_40px_rgba(255,255,255,0.8)] transition-all transform hover:scale-105"
+          >
             Get Started
           </button>
-          <button className="bg-transparent border border-white text-white px-6 md:px-10 py-3 rounded-full font-medium hover:bg-white/10 transition-colors whitespace-nowrap">
+          <a 
+            href="#about"
+            className="bg-transparent border border-white text-white px-6 md:px-10 py-3 rounded-full font-medium hover:bg-white/10 transition-colors whitespace-nowrap"
+          >
             Learn-more
-          </button>
+          </a>
         </div>
 
       </div>

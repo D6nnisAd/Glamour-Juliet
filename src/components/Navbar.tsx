@@ -1,7 +1,7 @@
 import { useState, useEffect } from 'react';
 import { Menu, X } from 'lucide-react';
 import { Link } from 'react-router-dom';
-
+import { TELEGRAM_URL } from './FloatingButton';
 export function Navbar() {
   const [isScrolled, setIsScrolled] = useState(false);
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -48,7 +48,10 @@ export function Navbar() {
 
         {/* Right: Signup Button & Hamburger */}
         <div className="flex items-center space-x-4">
-          <button className="bg-white text-brand-dark px-8 py-[10px] rounded-full font-semibold shadow-[0_0_30px_rgba(255,255,255,0.6)] hover:shadow-[0_0_35px_rgba(255,255,255,0.9)] transition-shadow">
+          <button 
+            onClick={() => window.open(TELEGRAM_URL, '_blank')}
+            className="bg-white text-brand-dark px-8 py-[10px] rounded-full font-semibold shadow-[0_0_30px_rgba(255,255,255,0.6)] hover:shadow-[0_0_35px_rgba(255,255,255,0.9)] transition-shadow"
+          >
             Get Started
           </button>
 
@@ -85,7 +88,10 @@ export function Navbar() {
           </div>
           
           <div className="mt-auto mb-12">
-            <button className="w-full bg-white text-brand-dark py-4 rounded-full font-bold shadow-[0_0_25px_rgba(255,255,255,0.4)] text-lg">
+            <button 
+              onClick={() => window.open(TELEGRAM_URL, '_blank')}
+              className="w-full bg-white text-brand-dark py-4 rounded-full font-bold shadow-[0_0_25px_rgba(255,255,255,0.4)] text-lg"
+            >
               Get Started Now
             </button>
           </div>
